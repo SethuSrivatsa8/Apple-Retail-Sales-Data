@@ -26,8 +26,8 @@ CREATE TABLE sales
 (
 sale_id	VARCHAR(15) PRIMARY KEY,
 sale_date	DATE,
-store_id	VARCHAR(10), -- this fk
-product_id	VARCHAR(10), -- this fk
+store_id	VARCHAR(10), 
+product_id	VARCHAR(10),
 quantity INT,
 CONSTRAINT fk_store FOREIGN KEY (store_id) REFERENCES stores(store_id),
 CONSTRAINT fk_product FOREIGN KEY (product_id) REFERENCES products(product_id)
