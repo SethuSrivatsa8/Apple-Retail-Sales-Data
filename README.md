@@ -69,6 +69,16 @@ The project is split into three tiers of questions of increasing complexity:
 19. Identify the store with the highest percentage of "Paid Repaired" claims relative to total claims filed.
 20. Write a query to calculate the monthly running total of sales for each store over the past four years and compare trends during this period.
 21. Analyze product sales trends over time, segmented into key periods: from launch to 6 months, 6-12 months, 12-18 months, and beyond 18 months.
+22. Identify products with consecutive warranty claims within 30 days
+23. Display Dynamic Price Tier Analysis with Rolling Metrics by categorizing products into dynamic price tiers and calculating 6-month rolling revenue metrics.
+24.  Design a function, analyze_store_hierarchy, that identifies top-performing stores and their sphere of influence based on sales quantity and warranty claims
+25.  Create a trigger that flags suspicious warranty claims using multiple conditions.
+26.  Find products with above-average warranty claims in their price category using correlated subqueries
+27.  Identify products that initiate the most warranty claim propagations to other products sold in the same transaction within 90 days, using a recursive CTE.
+28.  Calculate a 7-day moving average of sales, but only considering weekdays
+29.  Identify products whose price is significantly different from the median price of products sold in the same city on the same day
+30.  Identify product categories where the ratio of warranty claims for high-priced products (above the 75th percentile price) to the total number of claims in that category is exceptionally high.
+31.  Identify which products act as 'Keystone Products', significantly increasing customer's likelihood of future warranty claims across their entire purchase history. Rank these products by the lift in claim rate compared to the baseline, considering customer-specific sales correlations.
 
 ## Project Focus
 
